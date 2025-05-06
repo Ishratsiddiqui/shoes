@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav{
+    height: 90px;
+    background: #FFF; */
+.navbar{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+   list-style: none;
+   gap: 70px;
+   
+}
+.navbar li{
+    /* margin: 30px; */
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navbar li:hover{
+    color: blue;
+}
+.btn{
+    background-color: brown;
+    color: #fff;
+    border: none;
+    text-align: center;
+    width: 100px;
+    padding: 0px 15px;
+    cursor: pointer;
+    float: right;
+    gap: 50px;
+    border-radius: 10px;
+    
+    
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: brown;
+    border: 2px solid brown;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.one h1{
+    font-size: 70px;
+    margin: 10px;
+    padding: 20px;
+}
+.one p{
+    font-size: 20px;
+    margin: 8px;
+    padding: 20px;
+}
+.row img{
+    margin: 20px;
+}
+.ten{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    margin: 20px;
+    border: none;
+}
+.ten:hover{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: red;
+    margin: 20px;
+    border: 2px solid black;
+}
+.botn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    border: none;
+}
+.botn:hover{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid red;
+}
